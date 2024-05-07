@@ -1,0 +1,192 @@
+a {
+	text-decoration: none !important;
+	color: black;
+}
+ul {
+	list-style: none !important;
+}
+.main-container {
+}
+
+.left-sidebar {
+	width: 100%;
+	background-color: rgb(244, 240, 240);
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.left-sidebar .logo {
+	height: 50px;
+	text-align: center;
+	background-color: grey;
+}
+
+.left-sidebar .token-list {
+	padding: 10px 5px;
+	flex: auto;
+	overflow-y: auto;
+}
+
+.token-list .token-item {
+	padding: 4px 5px;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-top: 2px;
+	background-color: white;
+	cursor: pointer;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.token-item:hover {
+	border: 1px solid green;
+	background-color: #dbdbdb;
+}
+
+.content {
+	width: 100%;
+	padding: 10px 20px;
+}
+
+.content .search {
+	border: 1px solid grey;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4px 10px;
+}
+
+.search .search-input {
+	flex: auto;
+	margin-left: 5px;
+	padding: 4px;
+}
+.label-content {
+	margin-right: 5px;
+	min-width: fit-content;
+}
+.launch-label {
+	color: blue;
+}
+.launch-label:hover {
+	cursor: pointer;
+	color: green;
+}
+
+.value-content {
+	border: 1px solid grey;
+	border-radius: 4px;
+	padding: 2px 4px;
+	display: flex;
+	align-items: center;
+	flex: auto;
+	overflow-x: hidden;
+	height: 30px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.check-content {
+	flex: auto;
+}
+
+.check-content img {
+	width: 27px;
+	height: 27px;
+}
+
+.transaction-list {
+	border: 1px solid grey;
+	border-radius: 6px;
+	width: 100%;
+	padding: 5px;
+	height: calc(100vh - 280px);
+	overflow-y: auto;
+}
+
+.transaction-list .item {
+	padding: 2px 4px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	margin-top: 1px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.chart {
+	height: calc(100vh - 280px);
+	width: 100%;
+}
+
+.simlation-details-container {
+	border: 1px solid;
+	display: flex;
+}
+
+.func-name {
+	border-bottom: 1px solid;
+	padding: 10px 5px;
+	cursor: pointer;
+}
+
+.simulation-content {
+	border-left: 1px solid;
+}
+
+/* .copy-btn {
+	padding: 3px 7px;
+	font-size: 10px;
+} */
+
+.to-main {
+	color: blue;
+}
+
+.to-main:hover {
+	cursor: pointer;
+	color: green;
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: green;
+}
+
+.arrow-btn {
+	padding: 3px 9px;
+  font-size: 15px;
+	border: 1px solid transparent;
+}
+
+.arrow-btn:hover {
+	cursor: pointer;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.loading {
+	position: absolute;
+	top: 45vh;
+	left: 49vw;
+}
+
+.filter-btn {
+	color: blue;
+}
+
+.filter-btn:hover {
+	background-color: green  !important;
+	color: white!important;
+	outline: white!important;
+	border-color : white !important;
+}
+
+.profitable-bar input {
+	width: 100px;
+}
